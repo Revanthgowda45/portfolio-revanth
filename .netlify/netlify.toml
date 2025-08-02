@@ -1,0 +1,31 @@
+functionsDirectory = "C:\\Users\\HP\\Desktop\\aboutRevanth\\revanth-design-canvas-main\\netlify\\functions"
+functionsDirectoryOrigin = "config-v1"
+plugins = []
+headers = []
+redirects = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "C:\\Users\\HP\\Desktop\\aboutRevanth\\revanth-design-canvas-main\\dist"
+publishOrigin = "config"
+commandOrigin = "config"
+base = "C:\\Users\\HP\\Desktop\\aboutRevanth\\revanth-design-canvas-main"
+command = "npm run build"
+functions = "C:\\Users\\HP\\Desktop\\aboutRevanth\\revanth-design-canvas-main\\netlify\\functions"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]

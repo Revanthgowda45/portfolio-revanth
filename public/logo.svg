@@ -1,0 +1,44 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Background -->
+  <defs>
+    <linearGradient id="gradientBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#1E3A8A" />
+    </linearGradient>
+    <linearGradient id="gradientInner" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#1E40AF" />
+    </linearGradient>
+    <filter id="shadow" x="-8" y="-8" width="216" height="216" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.3" />
+    </filter>
+  </defs>
+  
+  <!-- Hexagon Background (representing code structure) -->
+  <path d="M100 10L178 50V150L100 190L22 150V50L100 10Z" fill="url(#gradientBg)" filter="url(#shadow)" />
+  <path d="M100 30L158 60V140L100 170L42 140V60L100 30Z" fill="url(#gradientInner)" />
+  
+  <!-- Abstract Circuit Lines -->
+  <path d="M60 70L80 90M120 90L140 70" stroke="rgba(255,255,255,0.3)" stroke-width="2" />
+  <path d="M70 130L90 110M110 110L130 130" stroke="rgba(255,255,255,0.3)" stroke-width="2" />
+  <circle cx="60" cy="70" r="4" fill="#FFFFFF" />
+  <circle cx="140" cy="70" r="4" fill="#FFFFFF" />
+  <circle cx="70" cy="130" r="4" fill="#FFFFFF" />
+  <circle cx="130" cy="130" r="4" fill="#FFFFFF" />
+  
+  <!-- R monogram -->
+  <path d="M72 65V135H88V102H98L113 135H131L114 100C123 96 130 88 130 77C130 67 122 57 105 57H72ZM88 73H100C108 73 114 75 114 83C114 91 108 93 100 93H88V73Z" fill="white" />
+  
+  <!-- Code Elements -->
+  <path d="M50 85L38 100L50 115" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M150 85L162 100L150 115" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Abstract Data Structure Representation -->
+  <circle cx="70" cy="150" r="3" fill="white" />
+  <circle cx="90" cy="150" r="3" fill="white" />
+  <circle cx="110" cy="150" r="3" fill="white" />
+  <circle cx="130" cy="150" r="3" fill="white" />
+  <path d="M70 150H90M90 150H110M110 150H130" stroke="white" stroke-width="2" />
+  <path d="M80 140L90 150L80 160" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M120 140L110 150L120 160" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

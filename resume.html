@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revanth Gowda H V - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Calibri', 'Arial', sans-serif;
+            font-size: 12pt;
+            line-height: 1.4;
+            color: #333;
+            background: white;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0.5in;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #2c5282;
+            padding-bottom: 15px;
+        }
+        
+        .name {
+            font-size: 24pt;
+            font-weight: bold;
+            color: #2c5282;
+            margin-bottom: 5px;
+            letter-spacing: 1px;
+        }
+        
+        .title {
+            font-size: 14pt;
+            color: #666;
+            margin-bottom: 10px;
+            font-style: italic;
+        }
+        
+        .contact {
+            font-size: 11pt;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 3px;
+        }
+        
+        .section {
+            margin-bottom: 18px;
+        }
+        
+        .section-title {
+            font-size: 14pt;
+            font-weight: bold;
+            color: #2c5282;
+            text-transform: uppercase;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 3px;
+            margin-bottom: 10px;
+            letter-spacing: 0.5px;
+        }
+        
+        .objective {
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+        
+        .education-item, .experience-item, .project-item {
+            margin-bottom: 15px;
+        }
+        
+        .degree, .position {
+            font-weight: bold;
+            font-size: 13pt;
+            color: #2c5282;
+        }
+        
+        .institution, .company {
+            font-style: italic;
+            color: #666;
+        }
+        
+        .duration {
+            float: right;
+            font-weight: bold;
+            color: #4a5568;
+        }
+        
+        .details {
+            color: #555;
+            margin-top: 3px;
+        }
+        
+        .project-title {
+            font-weight: bold;
+            font-size: 13pt;
+            color: #2c5282;
+        }
+        
+        .tech-stack {
+            font-style: italic;
+            color: #666;
+            font-size: 11pt;
+        }
+        
+        .live-demo {
+            color: #3182ce;
+            text-decoration: none;
+            font-size: 11pt;
+        }
+        
+        .live-demo:hover {
+            text-decoration: underline;
+        }
+        
+        .project-points {
+            margin-top: 5px;
+        }
+        
+        .project-points li {
+            margin-bottom: 3px;
+            text-align: justify;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+        }
+        
+        .skill-category {
+            font-weight: bold;
+            color: #2c5282;
+        }
+        
+        .achievements ul, .project-points {
+            padding-left: 20px;
+        }
+        
+        .achievements li, .project-points li {
+            margin-bottom: 5px;
+        }
+        
+        .additional-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 15px;
+        }
+        
+        .additional-item {
+            text-align: left;
+        }
+        
+        .additional-title {
+            font-weight: bold;
+            color: #2c5282;
+            margin-bottom: 3px;
+        }
+        
+        @media print {
+            body {
+                padding: 0.3in;
+                font-size: 11pt;
+            }
+            .name {
+                font-size: 20pt;
+            }
+            .section-title {
+                font-size: 13pt;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div style="display: flex; align-items: center; justify-content: center; gap: 25px; margin-bottom: 15px;">
+            <img src="revanth.jpeg" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 3px solid #2c5282; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            <div style="text-align: left;">
+                <div class="name">REVANTH GOWDA H V</div>
+                <div class="title">Information Science & Engineering Student</div>
+            </div>
+        </div>
+        <div class="contact">
+            <div class="contact-item">📧 revanthgowda576@gmail.com</div>
+            <div class="contact-item">📱 +91 9353031854</div>
+            <div class="contact-item">🔗 <a href="https://github.com/Revanthgowda45" class="live-demo">GitHub</a></div>
+            <div class="contact-item">💼 <a href="https://linkedin.com/in/revanth-gowda-91765a299/" class="live-demo">LinkedIn</a></div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Objective</div>
+        <div class="objective">
+            3rd year Information Science Engineering student seeking an internship or entry-level position in software development. Interested in full-stack development and UI/UX design with basic experience in MERN stack technologies.
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Education</div>
+        <div class="education-item">
+            <div class="degree">Bachelor of Engineering - Information Science & Engineering</div>
+            <div class="duration">2024 - 2027</div>
+            <div class="institution">New Horizon College of Engineering, Bangalore</div>
+            <div class="details">Lateral Entry - Currently in 3rd Year | CGPA: 6.00</div>
+        </div>
+        <div class="education-item">
+            <div class="degree">Diploma in Computer Science</div>
+            <div class="duration">2021 - 2024</div>
+            <div class="institution">KS Polytechnic, Bangalore</div>
+            <div class="details">CGPA: 8.54</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Technical Skills</div>
+        <div class="skills-grid">
+            <div><span class="skill-category">Frontend:</span> HTML, CSS, JavaScript, React.js, TypeScript (Learning), Tailwind CSS</div>
+            <div><span class="skill-category">Backend:</span> Node.js (Basic), Express.js (Basic), Supabase</div>
+            <div><span class="skill-category">Database:</span> MongoDB (Basic), SQL (Basic)</div>
+            <div><span class="skill-category">Programming Languages:</span> Java, C (Basic), C++ (Basic)</div>
+            <div><span class="skill-category">Tools:</span> Git, VS Code, Figma, Cursor, Windsurf</div>
+            <div><span class="skill-category">Design:</span> UI/UX basics, Wireframing</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Projects</div>
+        <div class="project-item">
+            <div class="project-title">CityFix - Civic Issue Reporting Platform</div>
+            <div class="tech-stack">React | TypeScript | Supabase</div>
+            <div>🔗 <strong>Live Demo:</strong> <a href="https://finecityfix.netlify.app/dashboard" class="live-demo">finecityfix.netlify.app/dashboard</a></div>
+            <ul class="project-points">
+                <li>Built a web application for citizens to report civic issues like potholes and streetlight problems</li>
+                <li>Used React with TypeScript for the frontend development</li>
+                <li>Implemented user registration and login system using Supabase</li>
+                <li>Created forms for reporting issues with location mapping using Leaflet.js</li>
+                <li>Built dashboard to view and track submitted issues and their status</li>
+                <li>Designed responsive interface using Tailwind CSS that works on mobile devices</li>
+                <li>Deployed the application on Netlify for public access</li>
+            </ul>
+        </div>
+        
+        <div class="project-item">
+            <div class="project-title">DSA Tracker - Coding Practice Platform</div>
+            <div class="tech-stack">React.js | TypeScript | Supabase</div>
+            <div>🔗 <strong>Live Demo:</strong> <a href="https://dsapro.netlify.app" class="live-demo">dsapro.netlify.app</a></div>
+            <ul class="project-points">
+                <li>Built a web application to track daily coding practice and progress</li>
+                <li>Used React.js with TypeScript for the frontend interface</li>
+                <li>Added feature that suggests coding problems based on user's practice history</li>
+                <li>Implemented user login and data storage using Supabase database</li>
+                <li>Added features like progress tracking, streak counter, and practice analytics</li>
+                <li>Includes 375+ coding problems with difficulty levels and categories</li>
+                <li>Created responsive design that works on mobile and desktop</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Professional Experience</div>
+        <div class="experience-item">
+            <div class="position">UI/UX Design Intern</div>
+            <div class="duration">2023</div>
+            <div class="company">JB Portal, Bangalore | Certified</div>
+            <ul class="project-points">
+                <li>Created wireframes and UI designs using Figma for web applications</li>
+                <li>Learned user experience design principles and best practices</li>
+                <li>Collaborated with frontend developers to implement responsive designs</li>
+                <li>Gained hands-on experience in design workflow and client feedback incorporation</li>
+                <li><strong>Certificate:</strong> Completed internship with official certification</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Achievements</div>
+        <div class="achievements">
+            <ul>
+                <li>Maintained 8.54 CGPA in diploma studies</li>
+                <li>Completed several online tutorials on web development</li>
+                <li>Active on GitHub with personal projects</li>
+                <li>Participated in college coding events</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Additional Information</div>
+        <div class="additional-grid">
+            <div class="additional-item">
+                <div class="additional-title">Languages:</div>
+                <div>Kannada (Native), English (Conversational)</div>
+            </div>
+            <div class="additional-item">
+                <div class="additional-title">Interests:</div>
+                <div>Open-Source Software, Badminton, Web Development, Learning new technologies</div>
+            </div>
+            <div class="additional-item">
+                <div class="additional-title">Currently Learning:</div>
+                <div>Advanced React concepts, Database optimization</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

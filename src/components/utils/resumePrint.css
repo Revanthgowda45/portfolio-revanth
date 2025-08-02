@@ -1,0 +1,124 @@
+/* Print styles for the resume */
+@media print {
+  /* Hide everything except the resume when printing */
+  body * {
+    visibility: hidden;
+  }
+  
+  /* Show only the resume content */
+  .print-container,
+  .print-container * {
+    visibility: visible;
+  }
+  
+  /* Position the resume at the top left of the page */
+  .print-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+  }
+  
+  /* Remove any margins and set the page to A4 */
+  @page {
+    size: A4;
+    margin: 0;
+  }
+  
+  /* Ensure proper text rendering */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  
+  /* Ensure proper page breaks */
+  .page-break {
+    page-break-before: always;
+  }
+  
+  /* Ensure links print with their URL */
+  a::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    font-style: italic;
+  }
+  
+  /* Skills section styling */
+  .print-container h4 {
+    margin-top: 8px;
+    margin-bottom: 4px;
+  }
+  
+  /* Skill tags print styling */
+  .print-container .bg-blue-50,
+  .print-container .bg-green-50,
+  .print-container .bg-purple-50,
+  .print-container .bg-orange-50 {
+    background-color: #f7f7f7 !important;
+    border: 1px solid #e0e0e0 !important;
+    break-inside: avoid;
+  }
+  
+  /* Make proficiency tags visible in print */
+  .print-container .bg-green-500,
+  .print-container .bg-blue-500,
+  .print-container .bg-yellow-500,
+  .print-container .bg-gray-500 {
+    background-color: #333 !important;
+    color: white !important;
+  }
+
+  /* Education section */
+  .print-container .education-item {
+    margin-bottom: 6px;
+  }
+
+  /* Make sure text is properly black in print */
+  .print-container {
+    color: black !important;
+  }
+
+  /* Adjust spacing for skills */
+  .print-container .flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+
+}
+
+/* View Technical Skills button styling */
+.skills-button {
+  border: 2px solid #9F7AEA; /* Purple border */
+  background-color: transparent;
+  color: white;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.skills-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #9F7AEA, #667EEA);
+  transition: all 0.3s ease;
+  z-index: -1;
+}
+
+.skills-button:hover {
+  color: white;
+  border-color: transparent;
+}
+
+.skills-button:hover::before {
+  left: 0;
+}
