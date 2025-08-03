@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: [Your deployment URL here]
+**demo**: https://revanthcode.netlify.app
 
 ## How can I edit this code?
 
