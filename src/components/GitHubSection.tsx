@@ -14,7 +14,7 @@ const GitHubSection = () => {
       stars: 0,
       forks: 0,
       topics: ['react', 'typescript', 'supabase', 'leaflet', 'civic-tech'],
-      githubUrl: 'https://github.com/Revanthgowda45',
+      githubUrl: 'https://github.com/Revanthgowda45/CityFix',
       liveUrl: 'https://finecityfix.netlify.app/dashboard',
       featured: true,
       type: 'code'
@@ -26,7 +26,7 @@ const GitHubSection = () => {
       stars: 0,
       forks: 0,
       topics: ['react', 'typescript', 'supabase', 'dsa', 'coding-practice'],
-      githubUrl: 'https://github.com/Revanthgowda45',
+      githubUrl: 'https://github.com/Revanthgowda45/DSApro_learning',
       liveUrl: 'https://dsapro.netlify.app',
       featured: true,
       type: 'code'

@@ -174,12 +174,58 @@
             body {
                 padding: 0.3in;
                 font-size: 11pt;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
             }
             .name {
                 font-size: 20pt;
             }
             .section-title {
                 font-size: 13pt;
+            }
+            
+            /* Prevent page breaks inside important elements */
+            .section, .project-item, .education-item, .experience-item {
+                page-break-inside: avoid;
+                break-inside: avoid;
+            }
+            
+            /* Control page breaks */
+            .section {
+                page-break-after: auto;
+            }
+            
+            /* Ensure grids work properly in print */
+            .skills-grid, .additional-grid {
+                display: block;
+            }
+            
+            .skills-grid > div, .additional-grid > div {
+                display: block;
+                margin-bottom: 8px;
+            }
+            
+            /* Optimize image for print */
+            img {
+                max-width: 100px;
+                height: 100px;
+            }
+            
+            /* Remove any potential blank space creators */
+            * {
+                box-sizing: border-box;
+            }
+            
+            /* Ensure proper margins */
+            @page {
+                margin: 0.5in;
+                size: A4;
+            }
+            
+            /* Prevent orphans and widows */
+            p, li {
+                orphans: 2;
+                widows: 2;
             }
         }
     </style>

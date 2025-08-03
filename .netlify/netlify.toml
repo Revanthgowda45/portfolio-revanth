@@ -1,22 +1,19 @@
-functionsDirectory = "C:\\Users\\HP\\Desktop\\aboutRevanth\\revanth-design-canvas-main\\netlify\\functions"
-functionsDirectoryOrigin = "config-v1"
+redirectsOrigin = "config"
 plugins = []
 headers = []
-redirects = []
 
 [functions]
 
 [functions."*"]
 
 [build]
-publish = "C:\\Users\\HP\\Desktop\\aboutRevanth\\revanth-design-canvas-main\\dist"
+publish = "C:\\Users\\HP\\Desktop\\PROJECT\\aboutRevanth\\revanth\\dist"
 publishOrigin = "config"
 commandOrigin = "config"
-base = "C:\\Users\\HP\\Desktop\\aboutRevanth\\revanth-design-canvas-main"
 command = "npm run build"
-functions = "C:\\Users\\HP\\Desktop\\aboutRevanth\\revanth-design-canvas-main\\netlify\\functions"
 
 [build.environment]
+NODE_VERSION = "18"
 
 [build.processing]
 
@@ -29,3 +26,15 @@ functions = "C:\\Users\\HP\\Desktop\\aboutRevanth\\revanth-design-canvas-main\\n
 [build.processing.js]
 
 [build.services]
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200.0
+force = false
+
+[redirects.query]
+
+[redirects.conditions]
+
+[redirects.headers]
