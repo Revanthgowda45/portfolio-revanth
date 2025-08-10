@@ -1,3 +1,5 @@
+functionsDirectory = "C:\\Users\\HP\\Desktop\\PROJECT\\aboutRevanth\\revanth\\netlify\\functions"
+functionsDirectoryOrigin = "ui"
 redirectsOrigin = "config"
 plugins = []
 headers = []
@@ -11,6 +13,7 @@ publish = "C:\\Users\\HP\\Desktop\\PROJECT\\aboutRevanth\\revanth\\dist"
 publishOrigin = "config"
 commandOrigin = "config"
 command = "npm run build"
+functions = "C:\\Users\\HP\\Desktop\\PROJECT\\aboutRevanth\\revanth\\netlify\\functions"
 
 [build.environment]
 NODE_VERSION = "18"

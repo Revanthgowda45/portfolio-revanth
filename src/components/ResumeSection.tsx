@@ -164,11 +164,7 @@ const ResumeSection = () => {
               buttonText="Download PDF" 
               variant="default"
               size="default"
-              className="bg-gray-600 hover:bg-gray-700 text-white font-medium border border-gray-500 px-4 py-2 text-sm"
-              style={{ 
-                borderRadius: '4px',
-                fontFamily: 'Arial, sans-serif'
-              }}
+              className="bg-gray-600 hover:bg-gray-700 text-white font-medium border border-gray-500 px-4 py-2 text-sm rounded"
             />
             
             <ResumeWordDownload 

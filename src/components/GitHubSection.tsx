@@ -32,14 +32,38 @@ const GitHubSection = () => {
       type: 'code'
     },
     {
+      name: 'Karate ERP - Management System Design',
+      description: 'Comprehensive UI/UX design for a Karate Enterprise Resource Planning system. Features modern interface design, user flow optimization, and responsive layouts for managing karate school operations, student records, and administrative tasks.',
+      language: 'Figma',
+      stars: 0,
+      forks: 0,
+      topics: ['figma', 'ui-design', 'ux-design', 'erp-system', 'karate-management', 'responsive-design'],
+      githubUrl: '',
+      liveUrl: 'https://www.figma.com/design/EYLVqMlOYk2jwVdbVRQnHW/Karate-ERP?node-id=8627-25603&p=f',
+      featured: true,
+      type: 'design'
+    },
+    {
+      name: 'Nexus - College Management System',
+      description: 'UI/UX design for a comprehensive college management system created during internship at JB Portal. Features student information management, course scheduling, academic tracking, and administrative dashboard with modern, intuitive interface design.',
+      language: 'Figma',
+      stars: 0,
+      forks: 0,
+      topics: ['figma', 'ui-design', 'ux-design', 'college-management', 'education-system', 'dashboard-design'],
+      githubUrl: '',
+      liveUrl: 'https://www.figma.com/design/bCsddWTyjfik3azwsVY1uO/Nexus?node-id=2267-95284&t=hHKXuA58OoG7Zo4u-1',
+      featured: true,
+      type: 'design'
+    },
+    {
       name: 'UI/UX Design Portfolio',
-      description: 'Collection of UI/UX design projects created during internship at JB Portal. Includes wireframes, user interface designs, and responsive design implementations using Figma.',
+      description: 'Collection of UI/UX design projects created during internship at JB Portal. Includes wireframes, user interface designs, and responsive design implementations using Figma. Features the Nexus college management system and other comprehensive design solutions.',
       language: 'Figma',
       stars: 0,
       forks: 0,
       topics: ['figma', 'ui-design', 'ux-design', 'wireframing', 'responsive-design'],
       githubUrl: '',
-      liveUrl: 'https://figma.com/@revanthgowda',
+      liveUrl: 'https://www.figma.com/design/bCsddWTyjfik3azwsVY1uO/Nexus?node-id=2267-95284&t=hHKXuA58OoG7Zo4u-1',
       featured: false,
       type: 'design'
     }
